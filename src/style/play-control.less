@@ -1,0 +1,86 @@
+.play-box {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 90px;
+    z-index: 9999;
+    outline: none;
+  
+    .play-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      align-content: center;
+      justify-content: center;
+      height: 100%;
+      .info {
+        position: absolute;
+        left: 32px;
+        top: 50%;
+        transform: translateY(-50%);
+        max-width: 12%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        img {
+          height: 48px;
+          width: 48px;
+          border-radius: 6px;
+          object-fit: cover;
+          cursor: pointer;
+        }
+        .introduce {
+          margin-left: 10px;
+          white-space: nowrap;
+          font-weight: 600;
+          max-width: 100%;
+          span:first-child {
+            font-size: 12px;
+            display: block;
+            text-overflow: ellipsis;
+            overflow: hidden;
+          }
+          span:last-child {
+            font-size: 10px;
+            display: block;
+            text-overflow: ellipsis;
+            overflow: hidden;
+          }
+        }
+      }
+      .audio-play-box {
+        width: 50%;
+        .audio-player {
+          //倍数
+          /deep/.audio__play-rate__dropdown {
+            border-radius: 6px;
+            padding: 10px 2px;
+            margin-bottom: 8px;
+          }
+          // 音量
+          /deep/ .audio__play-volume-wrap {
+            border-radius: 6px;
+            margin-bottom: 8px;
+            .audio__play-volume {
+              border-radius: 6px;
+            }
+          }
+          // 时间
+          /deep/ .audio__time-wrap {
+            .audio__current-time {
+              color: #000000;
+            }
+            .audio__duration {
+              color: #000000;
+            }
+          }
+        }
+      }
+      .font-box {
+        position: absolute;
+        right: 0;
+      }
+    }
+  }

@@ -1,0 +1,72 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 3447483 */
+  src: url('iconfont.woff2?t=1659146167956') format('woff2'),
+       url('iconfont.woff?t=1659146167956') format('woff'),
+       url('iconfont.ttf?t=1659146167956') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 18px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class*="ali-zy-"],
+[class^="ali-zy-"] {
+  font-family: "iconfont" !important;
+  font-size: 18px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ali-zy-zanting:before {
+  content: "\e633";
+}
+
+.ali-zy-shanchu:before {
+  content: "\e61a";
+}
+
+.ali-zy-liebiao_:before {
+  content: "\e686";
+}
+
+.ali-zy-shoucang1:before {
+  content: "\e615";
+}
+
+.ali-zy-yunhang:before {
+  content: "\ec61";
+}
+
+.ali-zy-mima:before {
+  content: "\e619";
+}
+
+.ali-zy-jurassic_user:before {
+  content: "\e6a4";
+}
+
+.ali-zy-sousuo:before {
+  content: "\e651";
+}
+
+.ali-zy-liebiao:before {
+  content: "\e88f";
+}
+
+.ali-zy-shoucang:before {
+  content: "\eb26";
+}
+
+.ali-zy-icon_dingyue:before {
+  content: "\e6ba";
+}
+
+.ali-zy-shoujianxiang:before {
+  content: "\e7d2";
+}
+

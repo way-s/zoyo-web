@@ -3,13 +3,23 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "serve": "vue-cli-service serve --mode development",
+    "build": "vue-cli-service build --mode test",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@liripeng/vue-audio-player": "^1.5.0",
+    "axios": "^0.27.2",
     "core-js": "^3.8.3",
-    "vue": "^3.2.13"
+    "element-plus": "^2.2.2",
+    "js-md5": "^0.7.3",
+    "less": "^4.1.2",
+    "less-loader": "^11.0.0",
+    "mitt": "^3.0.0",
+    "socket.io-client": "^2.5.0",
+    "vue": "^3.2.13",
+    "vue-router": "^4.0.15",
+    "vuex": "^4.0.2"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",
@@ -17,8 +27,11 @@
     "@vue/cli-plugin-babel": "~5.0.0",
     "@vue/cli-plugin-eslint": "~5.0.0",
     "@vue/cli-service": "~5.0.0",
-    "eslint": "^7.32.0",
-    "eslint-plugin-vue": "^8.0.3"
+    "eslint-plugin-vue": "^8.0.3",
+    "style-resources-loader": "^1.5.0",
+    "unplugin-auto-import": "^0.8.6",
+    "unplugin-vue-components": "^0.19.6",
+    "vue-cli-plugin-style-resources-loader": "^0.1.5"
   },
   "eslintConfig": {
     "root": true,
@@ -30,9 +43,28 @@
       "eslint:recommended"
     ],
     "parserOptions": {
-      "parser": "@babel/eslint-parser"
+      "parser": "@babel/eslint-parser",
+      "requireConfigFile": false
     },
-    "rules": {}
+    "rules": {
+      "generator-star-spacing": "off",
+      "no-tabs": "off",
+      "no-unused-vars": "off",
+      "no-console": "off",
+      "no-irregular-whitespace": "off",
+      "no-debugger": "off",
+      "vue/no-unused-components": "off",
+      "vue/multi-word-component-names": 0,
+      "semi": [
+        "off",
+        "always"
+      ],
+      "comma-dangle": "off",
+      "quotes": "off",
+      "space-in-parens": 0,
+      "indent": 0,
+      "space-before-function-paren": 0
+    }
   },
   "browserslist": [
     "> 1%",
