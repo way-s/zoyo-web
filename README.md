@@ -4,7 +4,7 @@
 
 `ZOYO WEB`播客项目是前后端分离的网页版的播客项目，该项目的目标是实现在网页端收听播客节目。前端基于 Vue3框架和 Element-Plus 组件实现，服务端基于 Spring Boot 和 Mybatis-Plus 等框架实现。
 
-注：本人java菜鸟一枚，该项目是个人练习项目。在该项目中参考了[mall](https://github.com/macrozheng/mall)、[vue3-element-admin](https://gitee.com/asaasa/vue3-element-admin)、[maku-admin](https://gitee.com/makunet/maku-admin)、[vue-element-admin](https://github.com/PanJiaChen/vue-element-admin)等开源项目，前端页面模仿[Podcasts播客](https://chrome.google.com/webstore/detail/podcasts-a-player-downloa/lmpfkgigdbnbdopkpeippmadlchmkphi)，播放控件使用了[vue-audio-player](https://github.com/1014156094/vue-audio-player)开源组件。
+注：在该项目中参考了[mall](https://github.com/macrozheng/mall)、[vue3-element-admin](https://gitee.com/asaasa/vue3-element-admin)、[maku-admin](https://gitee.com/makunet/maku-admin)、[vue-element-admin](https://github.com/PanJiaChen/vue-element-admin)等开源项目，前端页面模仿[Podcasts播客](https://chrome.google.com/webstore/detail/podcasts-a-player-downloa/lmpfkgigdbnbdopkpeippmadlchmkphi)，播放控件使用了[vue-audio-player](https://github.com/1014156094/vue-audio-player)开源组件。
 
 ## 项目演示
 
